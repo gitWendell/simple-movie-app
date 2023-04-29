@@ -1,0 +1,10 @@
+.movie-card-container a img:hover {
+    transform: scale(1.05, 1.05);
+    opacity: 0.75;
+    transition: 0.25s;
+}
+
+.movie-card-container a img {
+    transform: scale(1, 1);
+    transition: 0.25s;
+}

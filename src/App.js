@@ -7,7 +7,7 @@ const App = () => {
   
   return (
     <Router>
-      <div className="App">
+      <div className="App container mx-auto my-0 mt-2">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movie/:movieId" element={<Movie />} />

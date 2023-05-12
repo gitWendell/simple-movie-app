@@ -15,7 +15,7 @@ export const MovieCard = ({movie}) => {
             </Link>
             <div className="py-2">
                 <a href="#">
-                    <h5 className="mb-2 text-lg leading-7 font-bold tracking-tight text-gray-900 dark:text-white whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h5 className="mb-2 leading-7 font-bold tracking-tight text-gray-900 dark:text-white whitespace-nowrap overflow-hidden text-ellipsis">
                         {original_title}
                     </h5>
                 </a>

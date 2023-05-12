@@ -1,0 +1,33 @@
+.page-item.active {
+    background: var(--third-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.page-item {
+    display: inline-block;
+    margin-right: 10px;
+    transition: 0.525;
+}
+
+.page-item svg {
+    display: inline;
+}
+
+.page-item a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.page-item:hover {
+    background: var(--secondary-color);
+    border-radius: 5px;
+    color: white;
+    transition: 0.25s;
+}
+
+.pagination {
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 50px;
+}

@@ -1,6 +1,11 @@
 /* Variables */
 :root {
   --background-color: #fff1f2;
+  --secondary-color: #ff9aa1;
+  --third-color: #ff636d;
+  --fourth-color: #4784ff;
+  --fifth-color: #72a1ff;
+  --scroll-color: var(--swiper-scrollbar-drag-bg-color,rgba(255, 194, 214,.5));
 }
 
 
@@ -8,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,4 +25,17 @@ section.movie-list {
   display: grid;
     grid-gap: 20px 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary-color) !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: var(--third-color) !important;
+}
+
+.swiper-scrollbar-drag {
+
+  background: var(--scroll-color) !important;
 }

@@ -1,0 +1,10 @@
+.title div {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #ff9e9e;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
